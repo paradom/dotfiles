@@ -10,7 +10,6 @@ chmod 600 $!
 touch ~/.ssh/config
 echo "Host github.com
             HostName github.com
-            Port 822
             Preferredauthentications publickey
             IdentityFile ~/.ssh/id_github" > ~/.ssh/config
 ```
