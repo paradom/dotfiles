@@ -13,15 +13,11 @@ echo "Host github.com
             Preferredauthentications publickey
             IdentityFile ~/.ssh/id_github" > ~/.ssh/config
 ```
-
-### Go to gitlab and copy pub key into ssh keys setting
-```
-git clone git@github.com:paradom/dotfiles.git
-```
+Go to [github](https://github.com/settings/profile) and copy pub key into ssh keys setting.
 
 ### Clone the repository
 ```
-Clone the repository over ssh
+git clone git@github.com:paradom/dotfiles.git
 ```
 
 ### Copy the setup script and run it
