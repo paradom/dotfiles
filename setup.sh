@@ -16,4 +16,4 @@ ln -fs $gitdir/.i3config ~/tes/.config/i3/config
 
 # install vundle
 mkdir -p ~/.vim/bundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
