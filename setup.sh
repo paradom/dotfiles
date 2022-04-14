@@ -10,9 +10,9 @@ then
 fi
 
 # create symbolic links
-mkdir -p ~/tes/.config/i3 ~/tes
-ln -fs ${gitdir}/{.bash_profile,.vimrc} ~/tes
-ln -fs $gitdir/.i3config ~/tes/.config/i3/config
+mkdir -p ~/.config/i3
+ln -fs ${gitdir}/{.bash_profile,.vimrc} ~/
+ln -fs $gitdir/.i3config ~/.config/i3/config
 
 # install vundle
 mkdir -p ~/.vim/bundle
