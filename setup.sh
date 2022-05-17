@@ -1,5 +1,5 @@
 #!/bin/bash
-gitdir=$( dirname ${BASH_SOURCE[0]} ) 
+gitdir=$( realpath ${BASH_SOURCE[0]} ) 
 echo $gitdir/
 
 read -p "This script will overwrite your current .vimrc, i3config and bashrc file. Are you sure you want to continue? " -n 1 -r
@@ -12,7 +12,7 @@ fi
 # create symbolic links
 mkdir -p ~/.config/i3
 ln -fs ${gitdir}/{.bash_profile,.vimrc} ~/
-ln -fs $gitdir/.i3config ~/.config/i3/config
+ln -fs $gitdir/i3-config ~/.config/i3/config
 
 # install vundle
 mkdir -p ~/.vim/bundle
