@@ -32,11 +32,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugin 'neoclide/coc.nvim'
-Plugin 'git@github.com:mbbill/undotree.git' " visualize your vim undo history   
-Plugin 'git@github.com:tpope/vim-fugitive.git' " git integration                
-Plugin 'git@github.com:kien/ctrlp.vim.git'                                      
-Plugin 'git@github.com:morhetz/gruvbox.git'                                     
-Plugin 'git@github.com:vim-airline/vim-airline.git' " status tabline
+Plugin 'https://github.com/mbbill/undotree.git' " visualize your vim undo history   
+Plugin 'https://github.com/tpope/vim-fugitive.git' " git integration                
+Plugin 'https://github.com/kien/ctrlp.vim.git'                                       
+Plugin 'https://github.com/morhetz/gruvbox.git'                                     
+Plugin 'https://github.com/vim-airline/vim-airline.git' " status tabline
 
 call vundle#end()            " required
 filetype plugin indent on    " required
